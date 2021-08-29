@@ -1,0 +1,32 @@
+﻿* {
+  outline: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+  background-image:url(../img/header-bg.jpg);
+  height: 650px;
+}
+.but{
+  background:url(../img/touch-bg.png) no-repeat;
+}
+.fotoblock{
+  height: 500px;
+  background:url(../img/references-image-bg.png) no-repeat;
+  background-position: left bottom;
+}
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid white;
+}
+input::placeholder{
+  padding: 10px;
+  color: #fff;
+}
+footer{
+  background: url(../img/footer-bg.jpg) no-repeat;
+}
